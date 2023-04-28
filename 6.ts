@@ -23,7 +23,3 @@ console.log(isPalindrome("kanak")); // true (it is a palindrome)
 console.log(isPalindrome("xzwx")); // true (z can be removed to make a palindrome xwx)
 console.log(isPalindrome("xzwbmx")); // false (more than one character is needed to make a palindrome)
 
-
-function isPalindrome(str: string): boolean {
-    return str === str.split("").reverse().join("");
-}

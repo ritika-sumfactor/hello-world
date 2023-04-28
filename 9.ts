@@ -13,4 +13,5 @@ function kadaneAlgorithm(arr: number[]): number {
 }
 const arr = [1, -2, 3, 4, -1, 2, -5, 4];
 const maxSum =kadaneAlgorithm (arr);
-console.log(maxSum); // Output: 8
+console.log(maxSum);
+// Output: 8
